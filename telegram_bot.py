@@ -33,7 +33,7 @@ def save_movies(movies):
 # /start komandasi
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Salom! Men kino botiman. Kino ID'sini yuboring, men sizga kino yuboraman. "
+        "Salom. Men kino botiman. Kino ID'sini yuboring, men sizga kino yuboraman. "
         "Agar admin bo'lsangiz, kino yuklash uchun video fayl yuboring."
     )
 
